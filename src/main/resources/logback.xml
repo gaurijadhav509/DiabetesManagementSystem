@@ -1,0 +1,18 @@
+<configuration>
+
+    <!-- Console appender with color coding for different log levels -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>
+                %d{yyyy-MM-dd HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger{36}.%M - %msg%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root logger configuration -->
+    <root level="info">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

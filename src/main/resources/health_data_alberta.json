@@ -1,0 +1,962 @@
+[
+  {
+    "name": "Charlotte Clark",
+    "age": 34,
+    "gender": "Male",
+    "location": "Alberta, Canada - Calgary",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 1",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 180,
+      "heart_rate_bpm": 61,
+      "heart_rate_variability_ms": 38,
+      "sleep_quality_hours": 6.5,
+      "medication_and_insulin_mg": 41,
+      "food_consumed_grams": {
+        "carbohydrates": 191,
+        "protein": 133,
+        "fiber": 34
+      },
+      "water_intake_liters": 3.9,
+      "steps_walked_weekly": [
+        3270,
+        2879,
+        2410,
+        3950,
+        2615,
+        2469,
+        8648
+      ]
+    }
+  },
+  {
+    "name": "Liam Clark",
+    "age": 42,
+    "gender": "Female",
+    "location": "Alberta, Canada - Calgary",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 2",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 124,
+      "heart_rate_bpm": 76,
+      "heart_rate_variability_ms": 25,
+      "sleep_quality_hours": 5.7,
+      "medication_and_insulin_mg": 19,
+      "food_consumed_grams": {
+        "carbohydrates": 231,
+        "protein": 148,
+        "fiber": 21
+      },
+      "water_intake_liters": 3.5,
+      "steps_walked_weekly": [
+        3323,
+        3462,
+        4507,
+        3111,
+        2517,
+        1890,
+        8513
+      ]
+    }
+  },
+  {
+    "name": "Henry Clark",
+    "age": 50,
+    "gender": "Male",
+    "location": "Alberta, Canada - Calgary",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Prediabetes",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 107,
+      "heart_rate_bpm": 82,
+      "heart_rate_variability_ms": 50,
+      "sleep_quality_hours": 6.7,
+      "medication_and_insulin_mg": 6,
+      "food_consumed_grams": {
+        "carbohydrates": 230,
+        "protein": 118,
+        "fiber": 36
+      },
+      "water_intake_liters": 4,
+      "steps_walked_weekly": [
+        1306,
+        576,
+        1057,
+        1537,
+        558,
+        1533,
+        2697
+      ]
+    }
+  },
+  {
+    "name": "Olivia Thompson",
+    "age": 28,
+    "gender": "Female",
+    "location": "Alberta, Canada - Calgary",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 72,
+      "heart_rate_bpm": 77,
+      "heart_rate_variability_ms": 64,
+      "sleep_quality_hours": 7.7,
+      "medication_and_insulin_mg": 0,
+      "food_consumed_grams": {
+        "carbohydrates": 150,
+        "protein": 116,
+        "fiber": 49
+      },
+      "water_intake_liters": 2.6,
+      "steps_walked_weekly": [
+        3413,
+        3141,
+        5771,
+        2553,
+        5458,
+        3692,
+        10023
+      ]
+    }
+  },
+  {
+    "name": "Liam Garcia",
+    "age": 25,
+    "gender": "Male",
+    "location": "Alberta, Canada - Calgary",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 1",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 127,
+      "heart_rate_bpm": 73,
+      "heart_rate_variability_ms": 24,
+      "sleep_quality_hours": 7.2,
+      "medication_and_insulin_mg": 23,
+      "food_consumed_grams": {
+        "carbohydrates": 230,
+        "protein": 148,
+        "fiber": 44
+      },
+      "water_intake_liters": 3.1,
+      "steps_walked_weekly": [
+        1152,
+        1191,
+        1416,
+        1086,
+        1044,
+        1237,
+        2731
+      ]
+    }
+  },
+  {
+    "name": "Benjamin Wilson",
+    "age": 26,
+    "gender": "Female",
+    "location": "Alberta, Canada - Calgary",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 2",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 137,
+      "heart_rate_bpm": 56,
+      "heart_rate_variability_ms": 50,
+      "sleep_quality_hours": 8.2,
+      "medication_and_insulin_mg": 12,
+      "food_consumed_grams": {
+        "carbohydrates": 256,
+        "protein": 89,
+        "fiber": 31
+      },
+      "water_intake_liters": 1.8,
+      "steps_walked_weekly": [
+        4242,
+        3125,
+        2253,
+        4368,
+        1637,
+        3474,
+        7543
+      ]
+    }
+  },
+  {
+    "name": "James Smith",
+    "age": 27,
+    "gender": "Male",
+    "location": "Alberta, Canada - Calgary",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Prediabetes",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 107,
+      "heart_rate_bpm": 65,
+      "heart_rate_variability_ms": 34,
+      "sleep_quality_hours": 7.3,
+      "medication_and_insulin_mg": 3,
+      "food_consumed_grams": {
+        "carbohydrates": 151,
+        "protein": 147,
+        "fiber": 20
+      },
+      "water_intake_liters": 3.3,
+      "steps_walked_weekly": [
+        1148,
+        989,
+        1754,
+        1556,
+        1841,
+        1511,
+        4596
+      ]
+    }
+  },
+  {
+    "name": "Noah Miller",
+    "age": 28,
+    "gender": "Female",
+    "location": "Alberta, Canada - Calgary",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 73,
+      "heart_rate_bpm": 78,
+      "heart_rate_variability_ms": 85,
+      "sleep_quality_hours": 7.4,
+      "medication_and_insulin_mg": 0,
+      "food_consumed_grams": {
+        "carbohydrates": 291,
+        "protein": 87,
+        "fiber": 25
+      },
+      "water_intake_liters": 2.3,
+      "steps_walked_weekly": [
+        1797,
+        1275,
+        1508,
+        1758,
+        920,
+        1065,
+        3196
+      ]
+    }
+  },
+  {
+    "name": "Olivia Moore",
+    "age": 29,
+    "gender": "Male",
+    "location": "Alberta, Canada - Calgary",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 1",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 239,
+      "heart_rate_bpm": 84,
+      "heart_rate_variability_ms": 27,
+      "sleep_quality_hours": 8.4,
+      "medication_and_insulin_mg": 27,
+      "food_consumed_grams": {
+        "carbohydrates": 337,
+        "protein": 76,
+        "fiber": 35
+      },
+      "water_intake_liters": 2.5,
+      "steps_walked_weekly": [
+        1843,
+        755,
+        1435,
+        750,
+        936,
+        763,
+        3280
+      ]
+    }
+  },
+  {
+    "name": "Charlotte Clark",
+    "age": 30,
+    "gender": "Female",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 2",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 156,
+      "heart_rate_bpm": 80,
+      "heart_rate_variability_ms": 45,
+      "sleep_quality_hours": 8.5,
+      "medication_and_insulin_mg": 22,
+      "food_consumed_grams": {
+        "carbohydrates": 282,
+        "protein": 85,
+        "fiber": 35
+      },
+      "water_intake_liters": 2.6,
+      "steps_walked_weekly": [
+        751,
+        1221,
+        919,
+        778,
+        1302,
+        866,
+        2350
+      ]
+    }
+  },
+  {
+    "name": "Abigail Harris",
+    "age": 31,
+    "gender": "Male",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Prediabetes",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 127,
+      "heart_rate_bpm": 68,
+      "heart_rate_variability_ms": 41,
+      "sleep_quality_hours": 5.1,
+      "medication_and_insulin_mg": 6,
+      "food_consumed_grams": {
+        "carbohydrates": 295,
+        "protein": 146,
+        "fiber": 45
+      },
+      "water_intake_liters": 3.7,
+      "steps_walked_weekly": [
+        4731,
+        4100,
+        1726,
+        3003,
+        2501,
+        4093,
+        8110
+      ]
+    }
+  },
+  {
+    "name": "Lucas Brown",
+    "age": 32,
+    "gender": "Female",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 95,
+      "heart_rate_bpm": 77,
+      "heart_rate_variability_ms": 79,
+      "sleep_quality_hours": 6.1,
+      "medication_and_insulin_mg": 0,
+      "food_consumed_grams": {
+        "carbohydrates": 165,
+        "protein": 64,
+        "fiber": 24
+      },
+      "water_intake_liters": 3.4,
+      "steps_walked_weekly": [
+        2130,
+        5782,
+        5538,
+        4833,
+        5865,
+        3504,
+        10345
+      ]
+    }
+  },
+  {
+    "name": "Emma Williams",
+    "age": 33,
+    "gender": "Male",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 1",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 204,
+      "heart_rate_bpm": 77,
+      "heart_rate_variability_ms": 22,
+      "sleep_quality_hours": 8.9,
+      "medication_and_insulin_mg": 49,
+      "food_consumed_grams": {
+        "carbohydrates": 196,
+        "protein": 132,
+        "fiber": 44
+      },
+      "water_intake_liters": 1.9,
+      "steps_walked_weekly": [
+        911,
+        693,
+        1720,
+        1582,
+        1401,
+        815,
+        2953
+      ]
+    }
+  },
+  {
+    "name": "Olivia Thomas",
+    "age": 35,
+    "gender": "Male",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 2",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 213,
+      "heart_rate_bpm": 68,
+      "heart_rate_variability_ms": 79,
+      "sleep_quality_hours": 8.1,
+      "medication_and_insulin_mg": 19,
+      "food_consumed_grams": {
+        "carbohydrates": 302,
+        "protein": 117,
+        "fiber": 12
+      },
+      "water_intake_liters": 1.5,
+      "steps_walked_weekly": [
+        1275,
+        1067,
+        1776,
+        2337,
+        1176,
+        1525,
+        3967
+      ]
+    }
+  },
+  {
+    "name": "Ethan Smith",
+    "age": 72,
+    "gender": "Female",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 167,
+      "heart_rate_bpm": 58,
+      "heart_rate_variability_ms": 81,
+      "sleep_quality_hours": 8.9,
+      "medication_and_insulin_mg": 47,
+      "food_consumed_grams": {
+        "carbohydrates": 399,
+        "protein": 86,
+        "fiber": 25
+      },
+      "water_intake_liters": 1.6,
+      "steps_walked_weekly": [
+        543,
+        831,
+        790,
+        819,
+        1166,
+        1204,
+        2589
+      ]
+    }
+  },
+  {
+    "name": "Sophia Harris",
+    "age": 56,
+    "gender": "Female",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 2",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 117,
+      "heart_rate_bpm": 103,
+      "heart_rate_variability_ms": 36,
+      "sleep_quality_hours": 8.9,
+      "medication_and_insulin_mg": 2,
+      "food_consumed_grams": {
+        "carbohydrates": 239,
+        "protein": 91,
+        "fiber": 14
+      },
+      "water_intake_liters": 1.1,
+      "steps_walked_weekly": [
+        983,
+        1677,
+        1532,
+        1923,
+        1657,
+        1990,
+        3337
+      ]
+    }
+  },
+  {
+    "name": "Ethan Harris",
+    "age": 70,
+    "gender": "Male",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 223,
+      "heart_rate_bpm": 82,
+      "heart_rate_variability_ms": 59,
+      "sleep_quality_hours": 8.1,
+      "medication_and_insulin_mg": 6,
+      "food_consumed_grams": {
+        "carbohydrates": 350,
+        "protein": 79,
+        "fiber": 18
+      },
+      "water_intake_liters": 2.7,
+      "steps_walked_weekly": [
+        958,
+        1471,
+        923,
+        637,
+        1330,
+        1010,
+        2485
+      ]
+    }
+  },
+  {
+    "name": "Amelia Anderson",
+    "age": 62,
+    "gender": "Female",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Prediabetes",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 202,
+      "heart_rate_bpm": 78,
+      "heart_rate_variability_ms": 23,
+      "sleep_quality_hours": 4,
+      "medication_and_insulin_mg": 24,
+      "food_consumed_grams": {
+        "carbohydrates": 363,
+        "protein": 72,
+        "fiber": 22
+      },
+      "water_intake_liters": 1.1,
+      "steps_walked_weekly": [
+        3021,
+        5969,
+        3371,
+        6028,
+        4137,
+        2564,
+        10929
+      ]
+    }
+  },
+  {
+    "name": "Noah Miller",
+    "age": 64,
+    "gender": "Female",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 153,
+      "heart_rate_bpm": 85,
+      "heart_rate_variability_ms": 71,
+      "sleep_quality_hours": 7.1,
+      "medication_and_insulin_mg": 32,
+      "food_consumed_grams": {
+        "carbohydrates": 374,
+        "protein": 148,
+        "fiber": 34
+      },
+      "water_intake_liters": 1.5,
+      "steps_walked_weekly": [
+        422,
+        588,
+        725,
+        324,
+        441,
+        309,
+        1329
+      ]
+    }
+  },
+  {
+    "name": "Oliver Smith",
+    "age": 20,
+    "gender": "Other",
+    "location": "Alberta, Canada - Edmonton",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 74,
+      "heart_rate_bpm": 52,
+      "heart_rate_variability_ms": 98,
+      "sleep_quality_hours": 5.7,
+      "medication_and_insulin_mg": 2,
+      "food_consumed_grams": {
+        "carbohydrates": 156,
+        "protein": 99,
+        "fiber": 45
+      },
+      "water_intake_liters": 2.4,
+      "steps_walked_weekly": [
+        850,
+        437,
+        505,
+        933,
+        964,
+        829,
+        1994
+      ]
+    }
+  },
+  {
+    "name": "Noah Clark",
+    "age": 41,
+    "gender": "Other",
+    "location": "Alberta, Canada - Grande Prairie",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 229,
+      "heart_rate_bpm": 51,
+      "heart_rate_variability_ms": 67,
+      "sleep_quality_hours": 5,
+      "medication_and_insulin_mg": 11,
+      "food_consumed_grams": {
+        "carbohydrates": 217,
+        "protein": 171,
+        "fiber": 45
+      },
+      "water_intake_liters": 2.8,
+      "steps_walked_weekly": [
+        1233,
+        1133,
+        2490,
+        1113,
+        2376,
+        1515,
+        4173
+      ]
+    }
+  },
+  {
+    "name": "Noah Clark",
+    "age": 66,
+    "gender": "Male",
+    "location": "Alberta, Canada - Grande Prairie",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 220,
+      "heart_rate_bpm": 99,
+      "heart_rate_variability_ms": 90,
+      "sleep_quality_hours": 4.7,
+      "medication_and_insulin_mg": 30,
+      "food_consumed_grams": {
+        "carbohydrates": 391,
+        "protein": 179,
+        "fiber": 22
+      },
+      "water_intake_liters": 1.6,
+      "steps_walked_weekly": [
+        536,
+        608,
+        367,
+        706,
+        546,
+        320,
+        1247
+      ]
+    }
+  },
+  {
+    "name": "Abigail Brown",
+    "age": 46,
+    "gender": "Other",
+    "location": "Alberta, Canada - Grande Prairie",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Prediabetes",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 81,
+      "heart_rate_bpm": 54,
+      "heart_rate_variability_ms": 36,
+      "sleep_quality_hours": 6.6,
+      "medication_and_insulin_mg": 12,
+      "food_consumed_grams": {
+        "carbohydrates": 152,
+        "protein": 76,
+        "fiber": 40
+      },
+      "water_intake_liters": 3.5,
+      "steps_walked_weekly": [
+        340,
+        488,
+        765,
+        684,
+        360,
+        654,
+        1606
+      ]
+    }
+  },
+  {
+    "name": "Emily Moore",
+    "age": 52,
+    "gender": "Female",
+    "location": "Alberta, Canada - Grande Prairie",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Prediabetes",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 72,
+      "heart_rate_bpm": 91,
+      "heart_rate_variability_ms": 100,
+      "sleep_quality_hours": 7.2,
+      "medication_and_insulin_mg": 6,
+      "food_consumed_grams": {
+        "carbohydrates": 188,
+        "protein": 106,
+        "fiber": 27
+      },
+      "water_intake_liters": 1.2,
+      "steps_walked_weekly": [
+        1597,
+        2451,
+        2230,
+        3404,
+        2146,
+        1737,
+        5778
+      ]
+    }
+  },
+  {
+    "name": "Liam White",
+    "age": 61,
+    "gender": "Male",
+    "location": "Alberta, Canada - Grande Prairie",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 2",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 235,
+      "heart_rate_bpm": 78,
+      "heart_rate_variability_ms": 87,
+      "sleep_quality_hours": 6.1,
+      "medication_and_insulin_mg": 16,
+      "food_consumed_grams": {
+        "carbohydrates": 150,
+        "protein": 54,
+        "fiber": 45
+      },
+      "water_intake_liters": 2,
+      "steps_walked_weekly": [
+        1186,
+        653,
+        1239,
+        858,
+        1085,
+        1238,
+        2092
+      ]
+    }
+  },
+  {
+    "name": "Henry Davis",
+    "age": 59,
+    "gender": "Male",
+    "location": "Alberta, Canada - Grande Prairie",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 98,
+      "heart_rate_bpm": 107,
+      "heart_rate_variability_ms": 94,
+      "sleep_quality_hours": 7.3,
+      "medication_and_insulin_mg": 36,
+      "food_consumed_grams": {
+        "carbohydrates": 394,
+        "protein": 55,
+        "fiber": 15
+      },
+      "water_intake_liters": 2.2,
+      "steps_walked_weekly": [
+        1488,
+        1160,
+        1341,
+        746,
+        1044,
+        1297,
+        2488
+      ]
+    }
+  },
+  {
+    "name": "Charlotte Moore",
+    "age": 55,
+    "gender": "Female",
+    "location": "Alberta, Canada - Grande Prairie",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Prediabetes",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 201,
+      "heart_rate_bpm": 105,
+      "heart_rate_variability_ms": 41,
+      "sleep_quality_hours": 8.2,
+      "medication_and_insulin_mg": 5,
+      "food_consumed_grams": {
+        "carbohydrates": 291,
+        "protein": 52,
+        "fiber": 36
+      },
+      "water_intake_liters": 3.1,
+      "steps_walked_weekly": [
+        4899,
+        2582,
+        4815,
+        2503,
+        3621,
+        4984,
+        8470
+      ]
+    }
+  },
+  {
+    "name": "Jack Thomas",
+    "age": 37,
+    "gender": "Other",
+    "location": "Alberta, Canada - Grande Prairie",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 2",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 150,
+      "heart_rate_bpm": 102,
+      "heart_rate_variability_ms": 78,
+      "sleep_quality_hours": 4.6,
+      "medication_and_insulin_mg": 1,
+      "food_consumed_grams": {
+        "carbohydrates": 107,
+        "protein": 197,
+        "fiber": 27
+      },
+      "water_intake_liters": 3.1,
+      "steps_walked_weekly": [
+        2353,
+        3911,
+        4202,
+        5070,
+        2306,
+        4618,
+        8768
+      ]
+    }
+  },
+  {
+    "name": "Olivia Brown",
+    "age": 36,
+    "gender": "Female",
+    "location": "Alberta, Canada - Grande Prairie",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Non Diabetic",
+        "has_diabetes": false
+      },
+      "blood_glucose_mg_dL": 86,
+      "heart_rate_bpm": 77,
+      "heart_rate_variability_ms": 43,
+      "sleep_quality_hours": 8.8,
+      "medication_and_insulin_mg": 1,
+      "food_consumed_grams": {
+        "carbohydrates": 172,
+        "protein": 90,
+        "fiber": 31
+      },
+      "water_intake_liters": 2.6,
+      "steps_walked_weekly": [
+        2432,
+        2657,
+        3447,
+        2329,
+        2109,
+        3307,
+        6130
+      ]
+    }
+  },
+  {
+    "name": "Benjamin Smith",
+    "age": 80,
+    "gender": "Female",
+    "location": "Alberta, Canada - Grande Prairie",
+    "health_metrics": {
+      "diabetes_status": {
+        "diabetes_type": "Type 1",
+        "has_diabetes": true
+      },
+      "blood_glucose_mg_dL": 140,
+      "heart_rate_bpm": 76,
+      "heart_rate_variability_ms": 25,
+      "sleep_quality_hours": 6.4,
+      "medication_and_insulin_mg": 42,
+      "food_consumed_grams": {
+        "carbohydrates": 304,
+        "protein": 128,
+        "fiber": 14
+      },
+      "water_intake_liters": 1.1,
+      "steps_walked_weekly": [
+        306,
+        336,
+        501,
+        675,
+        521,
+        387,
+        1307
+      ]
+    }
+  }
+]
